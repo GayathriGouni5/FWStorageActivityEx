@@ -11,7 +11,7 @@ public class DBActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_db);
-        Log.d(TAG, "onCreate: Testing");
+        Log.d(TAG, "onCreate: Testing two");
         Log.d(TAG, "onCreate: ");
     }
 
