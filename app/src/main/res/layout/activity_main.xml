@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.example.gayathri.fwstorageactivityex.MainActivity">
+
+    <Button
+        android:id="@+id/btnSharedPrefRetrieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="140dp"
+        android:text="Shared Preference Retrieve"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnRetrieveInFile"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnRetrieveInFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="140dp"
+        android:text="Retrieve In File"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnSharedPref"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Shared Preference"
+        app:layout_constraintLeft_toRightOf="@+id/btnStoreFileSave"
+        app:layout_constraintTop_toBottomOf="@+id/btnFragOne"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnDBStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="78dp"
+        android:text="Store In DB"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnSharedPref"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Go To Second Activity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnFragOne"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="16dp"
+        android:text="Show Fragment One"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="151dp" />
+
+    <Button
+        android:id="@+id/btnStoreFileSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Save In File"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActivity"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnFragTwo"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:text="Show Fragment Two"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnFragOne"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:id="@+id/etNameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRetrieveInFile"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="95dp" />
+
+    <FrameLayout
+        android:id="@+id/frmMain"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNameMain"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
